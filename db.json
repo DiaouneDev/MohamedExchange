@@ -1,0 +1,268 @@
+{
+  "devises": [
+    {
+      "id": "0bc4",
+      "base": "USD",
+      "cible": "EUR",
+      "montantBase": 200,
+      "montantConverti": 191.74,
+      "date": "2024-12-19T00:53:03.487Z"
+    },
+    {
+      "id": "70ad",
+      "base": "GNF",
+      "cible": "EUR",
+      "montantBase": 1000000,
+      "montantConverti": 110.82,
+      "date": "2024-12-19T00:55:36.871Z"
+    },
+    {
+      "id": "bf35",
+      "base": "USD",
+      "cible": "GNF",
+      "montantBase": 50,
+      "montantConverti": 430844.22000000003,
+      "date": "2024-12-19T00:57:13.415Z"
+    },
+    {
+      "id": "0a30",
+      "base": "USD",
+      "cible": "EUR",
+      "montantBase": 300,
+      "montantConverti": 287.61,
+      "date": "2024-12-19T09:57:03.995Z"
+    },
+    {
+      "id": "91b3",
+      "base": "GNF",
+      "cible": "EUR",
+      "montantBase": 2000000,
+      "montantConverti": 221.64,
+      "date": "2024-12-19T10:00:51.046Z"
+    },
+    {
+      "id": "af62",
+      "base": "GNF",
+      "cible": "EUR",
+      "montantBase": 3000000,
+      "montantConverti": 332.46,
+      "date": "2024-12-19T10:16:23.879Z"
+    },
+    {
+      "id": "fc07",
+      "base": "USD",
+      "cible": "GNF",
+      "montantBase": 300,
+      "montantConverti": 2585065.3200000003,
+      "date": "2024-12-19T10:27:28.815Z"
+    },
+    {
+      "id": "da5f",
+      "base": "GNF",
+      "cible": "EUR",
+      "montantBase": 4500000,
+      "montantConverti": 498.69,
+      "date": "2024-12-19T10:45:21.501Z"
+    },
+    {
+      "id": "fcbd",
+      "base": "GNF",
+      "cible": "EUR",
+      "montantBase": 450000,
+      "montantConverti": 49.869,
+      "date": "2024-12-19T11:07:47.600Z"
+    },
+    {
+      "id": "7339",
+      "base": "GNF",
+      "cible": "EUR",
+      "montantBase": 5000000,
+      "montantConverti": 554.1,
+      "date": "2024-12-19T11:10:38.223Z"
+    },
+    {
+      "id": "cbd6",
+      "base": "USD",
+      "cible": "GNF",
+      "montantBase": 5000,
+      "montantConverti": 43084422.00000001,
+      "date": "2024-12-19T14:09:17.667Z"
+    },
+    {
+      "id": "0e8d",
+      "base": "USD",
+      "cible": "GNF",
+      "montantBase": 7000,
+      "montantConverti": 60318190.800000004,
+      "date": "2024-12-19T14:10:00.192Z"
+    },
+    {
+      "id": "33dd",
+      "base": "EUR",
+      "cible": "GNF",
+      "montantBase": 250,
+      "montantConverti": 2256016.975,
+      "date": "2024-12-19T14:15:51.496Z"
+    },
+    {
+      "id": "85d9",
+      "base": "GNF",
+      "cible": "Eur",
+      "montantBase": 30000,
+      "montantConverti": 3.3245999999999998,
+      "date": "2024-12-19T16:21:53.013Z"
+    },
+    {
+      "id": "7173",
+      "base": "GNF",
+      "cible": "EUR",
+      "montantBase": 130000000,
+      "montantConverti": 14406.6,
+      "date": "2024-12-19T16:48:09.937Z"
+    },
+    {
+      "id": "cc51",
+      "base": "USD",
+      "cible": "GNF",
+      "montantBase": 25,
+      "montantConverti": 215422.11000000002,
+      "date": "2024-12-19T16:50:12.336Z"
+    },
+    {
+      "id": "d725",
+      "base": "EUR",
+      "cible": "GNF",
+      "montantBase": 50,
+      "montantConverti": 451203.395,
+      "date": "2024-12-19T20:46:16.579Z"
+    },
+    {
+      "id": "5890",
+      "base": "USD",
+      "cible": "GNF",
+      "montantBase": 125,
+      "montantConverti": 1077110.55,
+      "date": "2024-12-19T22:49:25.412Z"
+    },
+    {
+      "id": "c53a",
+      "base": "GNF",
+      "cible": "EUR",
+      "montantBase": 5000000,
+      "montantConverti": 559.2,
+      "date": "2024-12-20T21:52:01.338Z"
+    },
+    {
+      "id": "3f8a",
+      "base": "ARS",
+      "cible": "AWG",
+      "montantBase": 3000,
+      "montantConverti": 5.247,
+      "date": "2024-12-20T21:53:59.535Z"
+    },
+    {
+      "id": "7207",
+      "base": "GNF",
+      "cible": "CDF",
+      "montantBase": 50000,
+      "montantConverti": 16580,
+      "date": "2024-12-21T21:23:24.838Z"
+    },
+    {
+      "id": "eb80",
+      "base": "SLE",
+      "cible": "GNF",
+      "montantBase": 100000,
+      "montantConverti": 37765960,
+      "date": "2024-12-23T00:10:22.621Z"
+    },
+    {
+      "id": "be61",
+      "base": "AUD",
+      "cible": "AOA",
+      "montantBase": 60000,
+      "montantConverti": 34849080,
+      "date": "2024-12-23T01:21:25.005Z"
+    },
+    {
+      "id": "642a",
+      "base": "AWG",
+      "cible": "AUD",
+      "montantBase": 2000,
+      "montantConverti": 1787,
+      "date": "2024-12-23T01:41:09.201Z"
+    },
+    {
+      "id": "5d4d",
+      "base": "TVD",
+      "cible": "AOA",
+      "montantBase": 200,
+      "montantConverti": 116163.76000000001,
+      "date": "2024-12-23T23:01:38.277Z"
+    },
+    {
+      "id": "c1c2",
+      "base": "CDF",
+      "cible": "GNF",
+      "montantBase": 5000,
+      "montantConverti": 15014.5,
+      "date": "2024-12-23T23:06:19.623Z"
+    },
+    {
+      "id": "33ef",
+      "base": "AZN",
+      "cible": "AUD",
+      "montantBase": 450,
+      "montantConverti": 424.305,
+      "date": "2024-12-23T23:14:29.135Z"
+    },
+    {
+      "id": "06eb",
+      "base": "AWG",
+      "cible": "AUD",
+      "montantBase": 450,
+      "montantConverti": 402.075,
+      "date": "2024-12-23T23:15:18.740Z"
+    },
+    {
+      "id": "e7c2",
+      "base": "EUR",
+      "cible": "GNF",
+      "montantBase": 100,
+      "montantConverti": 893346.81,
+      "date": "2024-12-23T23:21:06.957Z"
+    },
+    {
+      "id": "32b8",
+      "base": "AWG",
+      "cible": "AUD",
+      "montantBase": 56,
+      "montantConverti": 50.036,
+      "date": "2024-12-24T01:07:41.950Z"
+    },
+    {
+      "id": "ece0",
+      "base": "BAM",
+      "cible": "AZN",
+      "montantBase": 67,
+      "montantConverti": 60.6484,
+      "date": "2024-12-24T01:31:31.316Z"
+    },
+    {
+      "id": "e814",
+      "base": "ANG",
+      "cible": "GNF",
+      "montantBase": 100000,
+      "montantConverti": 480751460.00000006,
+      "date": "2024-12-24T01:44:26.433Z"
+    },
+    {
+      "id": "eb96",
+      "base": "AWG",
+      "cible": "BGN",
+      "montantBase": 59,
+      "montantConverti": 62.0149,
+      "date": "2024-12-25T00:22:35.138Z"
+    }
+  ]
+}

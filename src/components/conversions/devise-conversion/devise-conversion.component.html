@@ -1,0 +1,123 @@
+<div class="container" style="margin-top: 80px;">
+
+  <div class="text-center mb-5">
+    <h2 class="display-4 text-primary">Convertisseur de Devise</h2>
+    <div *ngIf="resultat !== null" class="mt-5 alert alert-success text-center">
+      <h4 class="mb-3">
+        <i class="bi bi-check-circle-fill text-success"></i> Résultat de la Conversion :
+      </h4>
+      <p class="fs-5">
+        <strong>{{ conversionForm.value.montantBase }} {{ conversionForm.value.base }}</strong> =
+        <strong>{{ resultat }} {{ conversionForm.value.cible }}</strong>
+      </p>
+    </div>
+    <p class="text-muted">Effectuez vos conversions en un clic, rapidement et facilement.</p>
+  </div>
+
+  <div *ngIf="errorMessage" class="alert alert-danger text-center">
+    <i class="bi bi-exclamation-triangle-fill me-2"></i>{{ errorMessage }}
+  </div>
+
+  <div class="card shadow border-0">
+    <div class="row g-0">
+      <div class="col-md-5">
+        <img
+          src="assets/images/photo1.jpg"
+          class="img-fluid rounded-start"
+          alt="Image Conversion"
+          style="height: 100%; object-fit: cover;"
+        />
+      </div>
+
+      <div class="col-md-7">
+        <div class="card-body">
+          <h4 class="card-title text-secondary text-center">
+            <i class="bi bi-currency-exchange me-2"></i>Formulaire de Conversion
+          </h4>
+          <form [formGroup]="conversionForm" (ngSubmit)="AjouterConversion()">
+            <div class="row">
+              <!-- Devise Source -->
+              <div class="col-md-6 mb-3">
+                <label for="base" class="form-label">Devise Source :</label>
+                <div class="input-group">
+                  <span class="input-group-text bg-light">
+                    <i class="bi bi-currency-dollar"></i>
+                  </span>
+                  <select
+                    id="base"
+                    name="base"
+                    formControlName="base"
+                    class="form-select"
+                  >
+                    <option value="" disabled selected>Choisissez une devise</option>
+                    <option *ngFor="let devise of filtreDevisesBase" [value]="devise">
+                      {{ devise }}
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Devise Cible -->
+              <div class="col-md-6 mb-3">
+                <label for="cible" class="form-label">Devise Cible :</label>
+                <div class="input-group">
+                  <span class="input-group-text bg-light">
+                    <i class="bi bi-currency-euro"></i>
+                  </span>
+                  <select
+                    id="cible"
+                    name="cible"
+                    formControlName="cible"
+                    class="form-select"
+                  >
+                    <option value="" disabled selected>Choisissez une devise</option>
+                    <option *ngFor="let devise of filtreDevisesCible" [value]="devise">
+                      {{ devise }}
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Montant -->
+            <div class="mb-3">
+              <label for="montantBase" class="form-label">Montant :</label>
+              <div class="input-group">
+                <span class="input-group-text bg-light">
+                  <i class="bi bi-cash-stack"></i>
+                </span>
+                <input
+                  type="number"
+                  id="montantBase"
+                  name="montantBase"
+                  formControlName="montantBase"
+                  class="form-control"
+                  placeholder="Ex: 100"
+                />
+              </div>
+            </div>
+
+            <!-- Boutons -->
+            <div class="text-center mt-4">
+              <button type="reset" class="btn btn-outline-secondary me-3">
+                <i class="bi bi-x-circle"></i> Annuler
+              </button>
+              <button
+                type="submit"
+                class="btn btn-primary"
+                [disabled]="isSaving || conversionForm.invalid"
+              >
+                <i class="bi bi-arrow-right-circle"></i>
+                <span *ngIf="isSaving" class="spinner-border spinner-border-sm ms-2"></span>
+                <span *ngIf="!isSaving">Convertir</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Résultat -->
+ 
+</div>

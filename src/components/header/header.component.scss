@@ -1,0 +1,64 @@
+/* Style général pour la navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
+  padding: 10px 20px;
+  font-family: 'Arial', sans-serif; /* Utilisation d'une police moderne pour la navbar */
+}
+
+/* Stylisation du nom du logo */
+.navbar .logo-name {
+  font-size: 3.5rem; 
+  font-weight: 700; 
+  color: #1e90ff; 
+  text-transform: uppercase; 
+  letter-spacing: 3px; 
+  font-family: 'Poppins', sans-serif; 
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+/* Effet au survol du nom du logo */
+.navbar .logo-name:hover {
+  color: #ffc107; 
+  transform: scale(1.1); 
+}
+
+/* Style des liens de navigation */
+.navbar .nav-link {
+  font-size: 0.9rem; 
+  padding: 10px 20px;
+  color: #f8f9fa;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  font-family: 'Arial', sans-serif; 
+}
+
+/* Changement de couleur des liens au survol */
+.navbar .nav-link:hover {
+  color: #ffc107; 
+  background-color: rgba(255, 255, 255, 0.2); 
+  border-radius: 4px; 
+}
+
+/* Changement de couleur au survol des éléments du menu */
+.navbar .navbar-nav .nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* Style du bouton hamburger pour les petits écrans */
+.navbar-toggler {
+  border-color: #ffc107;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffc107;
+}
+
+/* Importation de Google Fonts (si vous ne l'avez pas encore fait) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');

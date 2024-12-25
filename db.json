@@ -279,6 +279,14 @@
       "montantBase": 23999,
       "montantConverti": 22645.4564,
       "date": "2024-12-25T01:28:05.335Z"
+    },
+    {
+      "id": "2634",
+      "base": "ALL",
+      "cible": "AZN",
+      "montantBase": 54000,
+      "montantConverti": 969.3000000000001,
+      "date": "2024-12-25T01:57:14.307Z"
     }
   ]
 }

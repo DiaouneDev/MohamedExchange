@@ -27,7 +27,7 @@ export class TauxService {
   }
 
   getDevises(): Observable<any> {
-    const url = `https://v6.exchangerate-api.com/v6/${this.apiKey}/codes`;
+    const url = `https://api.allorigins.win/raw?url=https://v6.exchangerate-api.com/v6/${this.apiKey}/codes`;
   
     return this.http.get<any>(url).pipe(
       catchError((error) => {

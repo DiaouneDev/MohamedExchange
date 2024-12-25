@@ -1,0 +1,35 @@
+/* Personnalisation du bouton hamburger */
+.navbar-toggler {
+    border: none !important; /* Supprime la bordure du bouton */
+    background: transparent !important; /* Rend le fond transparent */
+  }
+  
+  /* Personnalisation de l'icône hamburger (les 3 lignes) */
+  .navbar-toggler-icon {
+    background-color: #fff !important; /* Couleur blanche des lignes */
+    width: 30px !important; /* Largeur des lignes */
+    height: 3px !important; /* Épaisseur des lignes */
+    border-radius: 5px !important; /* Coins arrondis des lignes */
+    display: block !important; /* Assurez-vous que les lignes sont bien visibles */
+    position: relative;
+  }
+  
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: '';
+    position: absolute;
+    background-color: #fff !important; /* Couleur blanche des lignes */
+    width: 30px !important; /* Largeur des lignes */
+    height: 3px !important; /* Épaisseur des lignes */
+    border-radius: 5px !important; /* Coins arrondis des lignes */
+    transition: all 0.3s !important; /* Animation lors de l'ouverture/fermeture */
+  }
+  
+  .navbar-toggler-icon::before {
+    top: -8px !important; /* Décale la ligne du dessus */
+  }
+  
+  .navbar-toggler-icon::after {
+    bottom: -8px !important; /* Décale la ligne du bas */
+  }
+  

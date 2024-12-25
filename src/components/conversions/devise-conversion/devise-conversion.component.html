@@ -2,15 +2,7 @@
 
   <div class="text-center mb-5">
     <h2 class="display-4 text-primary">Convertisseur de Devise</h2>
-    <div *ngIf="resultat !== null" class="mt-5 alert alert-success text-center">
-      <h4 class="mb-3">
-        <i class="bi bi-check-circle-fill text-success"></i> Résultat de la Conversion :
-      </h4>
-      <p class="fs-5">
-        <strong>{{ conversionForm.value.montantBase }} {{ conversionForm.value.base }}</strong> =
-        <strong>{{ resultat }} {{ conversionForm.value.cible }}</strong>
-      </p>
-    </div>
+    
     <p class="text-muted">Effectuez vos conversions en un clic, rapidement et facilement.</p>
   </div>
 
@@ -119,5 +111,14 @@
   </div>
 
   <!-- Résultat -->
+  <div *ngIf="resultat !== null" class="mt-5 alert alert-success text-center">
+    <h4 class="mb-3">
+      <i class="bi bi-check-circle-fill text-success"></i> Résultat de la Conversion :
+    </h4>
+    <p class="fs-5">
+      <strong>{{ conversionForm.value.montantBase }} {{ conversionForm.value.base }}</strong> =
+      <strong>{{ resultat }} {{ conversionForm.value.cible }}</strong>
+    </p>
+  </div>
  
 </div>

@@ -263,6 +263,22 @@
       "montantBase": 59,
       "montantConverti": 62.0149,
       "date": "2024-12-25T00:22:35.138Z"
+    },
+    {
+      "id": "d9e1",
+      "base": "ANG",
+      "cible": "BDT",
+      "montantBase": 5999,
+      "montantConverti": 400470.44380000007,
+      "date": "2024-12-25T01:24:55.297Z"
+    },
+    {
+      "id": "4e38",
+      "base": "AZN",
+      "cible": "AUD",
+      "montantBase": 23999,
+      "montantConverti": 22645.4564,
+      "date": "2024-12-25T01:28:05.335Z"
     }
   ]
 }
